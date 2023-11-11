@@ -7,13 +7,13 @@
 // -----------------
 
 // Dados pessoais
-let nome = "Pedro Luís Costa Lopes"
-let idade = 18
-let peso = 132
-let altura = 1.8
+const nome = "Pedro Luís Costa Lopes"
+const idade = 18
+const peso = 132
+const altura = 1.8
 
 // Calculo IMC
-let IMC = peso / (altura * altura)
+const IMC = peso / (altura * altura)
 
 
 // Imprime no console
