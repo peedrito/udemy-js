@@ -20,4 +20,4 @@ peso = Number(peso);
 const IMC = (peso / (altura * altura));
 
 // Exibe em forma de pop-up o resultado.
-alert(`${nome} tem atualmente ${idade} anos, sua altura é de ${altura} em metros, seu peso atual é de ${altura}, seu IMC é de ${IMC.toFixed()}`)
+alert(`${nome} tem atualmente ${idade} anos, sua altura é de ${altura} em metros, seu peso atual é de ${peso}, seu IMC é de ${IMC.toFixed()}`)
