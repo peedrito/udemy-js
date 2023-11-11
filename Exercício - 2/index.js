@@ -8,15 +8,10 @@
 // Poderíamos aqui usar um objeto, mas vou seguir a didatica do curso.
 const nome = prompt('Digite seu nome, por favor!');
 const idade = prompt('Digite sua idade, por favor.');
-let altura = prompt('Digite sua altura em: *metros*!');
-let peso = prompt('Digite seu peso em: kg.')
+let altura = Number(prompt('Digite sua altura em *metros*!'));
+let peso = Number(prompt('Digite seu peso em kg.'));
 
 // Aqui vamos fazer o cáculo IMC da pessoa.
-// Mas antes precisamos transformar peso e altura em "number", pois está em "string".
-altura = Number(altura);
-peso = Number(peso);
-
-// Calculo:
 const IMC = (peso / (altura * altura));
 
 // Exibe em forma de pop-up o resultado.
