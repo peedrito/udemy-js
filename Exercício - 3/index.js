@@ -17,16 +17,16 @@ const nome = prompt('Qual seu nome completo?');
 // Cria um espaço html com o valor atribuido.
 document.body.innerHTML += `Site simples sobre String <3<br /><br />`
 
-document.body.innerHTML += `Seu nome completo é ${nome}.<br />`
+document.body.innerHTML += `Seu nome completo é <strong>${nome}<strong>.<br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `A segunda letra do seu nome é: ${nome.charAt(1)} <br />`
+document.body.innerHTML += `A segunda letra do seu nome é: <strong>${nome.charAt(1)}<strong> <br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `Qual o último índice da sua letra? ${nome.length - 1}<br />`
+document.body.innerHTML += `Qual o último índice da sua letra? <strong>${nome.length - 1}<strong><br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `As últimas 3 letras do seu nome: ${nome.slice(nome.length - 3)}<br />`
+document.body.innerHTML += `As últimas 3 letras do seu nome: <strong>${nome.slice(nome.length - 3)}<strong><br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `As palavras do seu nome são: ${nome.split(' ').join(', ')}<br />`
+document.body.innerHTML += `As palavras do seu nome são: <strong>${nome.split(' ').join(', ')}<strong><br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `Seu nome em maiúsculo: ${nome.toUpperCase()}<br />`
+document.body.innerHTML += `Seu nome em maiúsculo: <strong>${nome.toUpperCase()}<strong><br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `Seu nome em minúsculo: ${nome.toLowerCase()}<br />`
+document.body.innerHTML += `Seu nome em minúsculo: <strong>${nome.toLowerCase()}<strong><br />`
