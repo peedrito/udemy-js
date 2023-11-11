@@ -19,7 +19,7 @@ document.body.innerHTML += `Site simples sobre String <3<br /><br />`
 
 document.body.innerHTML += `Seu nome completo é ${nome}.<br />`
 document.body.innerHTML += `----------<br />`
-document.body.innerHTML += `A segunda letra do seu nome é: ${nome.charAt(0)} <br />`
+document.body.innerHTML += `A segunda letra do seu nome é: ${nome.charAt(1)} <br />`
 document.body.innerHTML += `----------<br />`
 document.body.innerHTML += `Qual o último índice da sua letra? ${nome.length - 1}<br />`
 document.body.innerHTML += `----------<br />`
